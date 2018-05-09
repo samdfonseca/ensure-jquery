@@ -1,0 +1,11 @@
+{
+  "name": "ensure-jquery",
+  "description" : "Adds jQuery to pages if not already included",
+  "version": "1.0",
+  "manifest_version": 2,
+  "browser_action": {
+    "default_popup": "form.html",
+    "default_icon": "icon.png"
+  },
+  "permissions": ["activeTab"]
+}
